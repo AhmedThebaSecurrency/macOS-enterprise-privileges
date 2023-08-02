@@ -22,7 +22,7 @@
 "removeButton" = "Rimuovi privilegi";
 
 // button to cancel
-"cancelButton" = "Annulla";
+"cancelButton" = "OK";
 
 // button with title "OK"
 "okButton" = "OK";

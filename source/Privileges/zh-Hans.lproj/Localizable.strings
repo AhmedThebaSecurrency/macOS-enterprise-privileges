@@ -22,7 +22,7 @@
 "removeButton" = "标准用户";
 
 // button to cancel
-"cancelButton" = "取消";
+"cancelButton" = "确定";
 
 // button with title "OK"
 "okButton" = "确定";

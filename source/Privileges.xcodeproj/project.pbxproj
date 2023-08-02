@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C48DD7C2A7A4F7D006C7A4B /* PrivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DD7B2A7A4F7D006C7A4B /* PrivApp.swift */; };
+		6C48DD7E2A7A4F7D006C7A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DD7D2A7A4F7D006C7A4B /* ContentView.swift */; };
+		6C48DD802A7A4F7F006C7A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48DD7F2A7A4F7F006C7A4B /* Assets.xcassets */; };
+		6C48DD832A7A4F7F006C7A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48DD822A7A4F7F006C7A4B /* Preview Assets.xcassets */; };
+		6C48DD8E2A7A4F80006C7A4B /* PrivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DD8D2A7A4F80006C7A4B /* PrivTests.swift */; };
+		6C48DD982A7A4F81006C7A4B /* PrivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DD972A7A4F81006C7A4B /* PrivUITests.swift */; };
+		6C48DD9A2A7A4F81006C7A4B /* PrivUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48DD992A7A4F81006C7A4B /* PrivUITestsLaunchTests.swift */; };
 		AD03DF1E20E6246B000744EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD03DF1D20E6246B000744EC /* Images.xcassets */; };
 		AD1B77001C92E59200BBE228 /* MTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B76FF1C92E59200BBE228 /* MTNotification.m */; };
 		AD1B77051C92F1B100BBE228 /* MTIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B77041C92F1B100BBE228 /* MTIdentity.m */; };
@@ -62,6 +69,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6C48DD8A2A7A4F7F006C7A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C48DD782A7A4F7C006C7A4B;
+			remoteInfo = Priv;
+		};
+		6C48DD942A7A4F80006C7A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C48DD782A7A4F7C006C7A4B;
+			remoteInfo = Priv;
+		};
 		AD439D7C2386D6BE00B2FAD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
@@ -120,6 +141,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C48DD4C2A7A4EF1006C7A4B /* PrivilegesSecurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesSecurrencyApp.swift; sourceTree = "<group>"; };
+		6C48DD4E2A7A4EF1006C7A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C48DD502A7A4EF3006C7A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C48DD532A7A4EF3006C7A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C48DD552A7A4EF3006C7A4B /* PrivilegesSecurrency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivilegesSecurrency.entitlements; sourceTree = "<group>"; };
+		6C48DD5E2A7A4EF4006C7A4B /* PrivilegesSecurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesSecurrencyTests.swift; sourceTree = "<group>"; };
+		6C48DD682A7A4EF5006C7A4B /* PrivilegesSecurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesSecurrencyUITests.swift; sourceTree = "<group>"; };
+		6C48DD6A2A7A4EF5006C7A4B /* PrivilegesSecurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesSecurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C48DD792A7A4F7C006C7A4B /* Priv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Priv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48DD7B2A7A4F7D006C7A4B /* PrivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivApp.swift; sourceTree = "<group>"; };
+		6C48DD7D2A7A4F7D006C7A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C48DD7F2A7A4F7F006C7A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C48DD822A7A4F7F006C7A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C48DD842A7A4F7F006C7A4B /* Priv.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Priv.entitlements; sourceTree = "<group>"; };
+		6C48DD892A7A4F7F006C7A4B /* PrivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48DD8D2A7A4F80006C7A4B /* PrivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivTests.swift; sourceTree = "<group>"; };
+		6C48DD932A7A4F80006C7A4B /* PrivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48DD972A7A4F81006C7A4B /* PrivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivUITests.swift; sourceTree = "<group>"; };
+		6C48DD992A7A4F81006C7A4B /* PrivUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD03DF1D20E6246B000744EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD07065028365FD6009398B1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		AD0B59F62328F347009B76E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
@@ -221,6 +261,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C48DD762A7A4F7C006C7A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD862A7A4F7F006C7A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD902A7A4F80006C7A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD703CF02385361700A8D946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +335,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C48DD4B2A7A4EF1006C7A4B /* PrivilegesSecurrency */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD4C2A7A4EF1006C7A4B /* PrivilegesSecurrencyApp.swift */,
+				6C48DD4E2A7A4EF1006C7A4B /* ContentView.swift */,
+				6C48DD502A7A4EF3006C7A4B /* Assets.xcassets */,
+				6C48DD552A7A4EF3006C7A4B /* PrivilegesSecurrency.entitlements */,
+				6C48DD522A7A4EF3006C7A4B /* Preview Content */,
+			);
+			path = PrivilegesSecurrency;
+			sourceTree = "<group>";
+		};
+		6C48DD522A7A4EF3006C7A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD532A7A4EF3006C7A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C48DD5D2A7A4EF4006C7A4B /* PrivilegesSecurrencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD5E2A7A4EF4006C7A4B /* PrivilegesSecurrencyTests.swift */,
+			);
+			path = PrivilegesSecurrencyTests;
+			sourceTree = "<group>";
+		};
+		6C48DD672A7A4EF5006C7A4B /* PrivilegesSecurrencyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD682A7A4EF5006C7A4B /* PrivilegesSecurrencyUITests.swift */,
+				6C48DD6A2A7A4EF5006C7A4B /* PrivilegesSecurrencyUITestsLaunchTests.swift */,
+			);
+			path = PrivilegesSecurrencyUITests;
+			sourceTree = "<group>";
+		};
+		6C48DD7A2A7A4F7D006C7A4B /* Priv */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD7B2A7A4F7D006C7A4B /* PrivApp.swift */,
+				6C48DD7D2A7A4F7D006C7A4B /* ContentView.swift */,
+				6C48DD7F2A7A4F7F006C7A4B /* Assets.xcassets */,
+				6C48DD842A7A4F7F006C7A4B /* Priv.entitlements */,
+				6C48DD812A7A4F7F006C7A4B /* Preview Content */,
+			);
+			path = Priv;
+			sourceTree = "<group>";
+		};
+		6C48DD812A7A4F7F006C7A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD822A7A4F7F006C7A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C48DD8C2A7A4F80006C7A4B /* PrivTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD8D2A7A4F80006C7A4B /* PrivTests.swift */,
+			);
+			path = PrivTests;
+			sourceTree = "<group>";
+		};
+		6C48DD962A7A4F81006C7A4B /* PrivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48DD972A7A4F81006C7A4B /* PrivUITests.swift */,
+				6C48DD992A7A4F81006C7A4B /* PrivUITestsLaunchTests.swift */,
+			);
+			path = PrivUITests;
+			sourceTree = "<group>";
+		};
 		AD703CF42385361700A8D946 /* PrivilegesXPC */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +443,12 @@
 				ADDEA8471C905FBB00B32C77 /* PrivilegesCLI */,
 				ADE676BF1CAD569800B4C920 /* PrivilegesTile */,
 				AD703CF42385361700A8D946 /* PrivilegesXPC */,
+				6C48DD4B2A7A4EF1006C7A4B /* PrivilegesSecurrency */,
+				6C48DD5D2A7A4EF4006C7A4B /* PrivilegesSecurrencyTests */,
+				6C48DD672A7A4EF5006C7A4B /* PrivilegesSecurrencyUITests */,
+				6C48DD7A2A7A4F7D006C7A4B /* Priv */,
+				6C48DD8C2A7A4F80006C7A4B /* PrivTests */,
+				6C48DD962A7A4F81006C7A4B /* PrivUITests */,
 				ADA960621C905F36002AEFEA /* Products */,
 				AD8EDC182850C7D10003BED5 /* Frameworks */,
 			);
@@ -321,6 +462,9 @@
 				ADDEA8461C905FBB00B32C77 /* PrivilegesCLI */,
 				ADE676BE1CAD569800B4C920 /* PrivilegesTile.docktileplugin */,
 				AD703CF32385361700A8D946 /* PrivilegesXPC.xpc */,
+				6C48DD792A7A4F7C006C7A4B /* Priv.app */,
+				6C48DD892A7A4F7F006C7A4B /* PrivTests.xctest */,
+				6C48DD932A7A4F80006C7A4B /* PrivUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +572,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6C48DD782A7A4F7C006C7A4B /* Priv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48DD9B2A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "Priv" */;
+			buildPhases = (
+				6C48DD752A7A4F7C006C7A4B /* Sources */,
+				6C48DD762A7A4F7C006C7A4B /* Frameworks */,
+				6C48DD772A7A4F7C006C7A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Priv;
+			productName = Priv;
+			productReference = 6C48DD792A7A4F7C006C7A4B /* Priv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C48DD882A7A4F7F006C7A4B /* PrivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48DD9E2A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "PrivTests" */;
+			buildPhases = (
+				6C48DD852A7A4F7F006C7A4B /* Sources */,
+				6C48DD862A7A4F7F006C7A4B /* Frameworks */,
+				6C48DD872A7A4F7F006C7A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C48DD8B2A7A4F7F006C7A4B /* PBXTargetDependency */,
+			);
+			name = PrivTests;
+			productName = PrivTests;
+			productReference = 6C48DD892A7A4F7F006C7A4B /* PrivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C48DD922A7A4F80006C7A4B /* PrivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48DDA12A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "PrivUITests" */;
+			buildPhases = (
+				6C48DD8F2A7A4F80006C7A4B /* Sources */,
+				6C48DD902A7A4F80006C7A4B /* Frameworks */,
+				6C48DD912A7A4F80006C7A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C48DD952A7A4F80006C7A4B /* PBXTargetDependency */,
+			);
+			name = PrivUITests;
+			productName = PrivUITests;
+			productReference = 6C48DD932A7A4F80006C7A4B /* PrivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AD703CF22385361700A8D946 /* PrivilegesXPC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD703D022385361700A8D946 /* Build configuration list for PBXNativeTarget "PrivilegesXPC" */;
@@ -524,15 +721,27 @@
 		ADA960591C905F36002AEFEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1400;
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "SAP SE";
 				TargetAttributes = {
+					6C48DD782A7A4F7C006C7A4B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6C48DD882A7A4F7F006C7A4B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6C48DD782A7A4F7C006C7A4B;
+					};
+					6C48DD922A7A4F80006C7A4B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6C48DD782A7A4F7C006C7A4B;
+					};
 					AD703CF22385361700A8D946 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					ADA960601C905F36002AEFEA = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7R5ZEU67FQ;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -545,18 +754,14 @@
 					};
 					ADDEA83A1C905F9300B32C77 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7R5ZEU67FQ;
 						ProvisioningStyle = Manual;
 					};
 					ADDEA8451C905FBB00B32C77 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7R5ZEU67FQ;
 						ProvisioningStyle = Manual;
 					};
 					ADE676BD1CAD569800B4C920 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7R5ZEU67FQ;
-						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -586,11 +791,37 @@
 				ADDEA8451C905FBB00B32C77 /* PrivilegesCLI */,
 				ADE676BD1CAD569800B4C920 /* PrivilegesTile */,
 				AD703CF22385361700A8D946 /* PrivilegesXPC */,
+				6C48DD782A7A4F7C006C7A4B /* Priv */,
+				6C48DD882A7A4F7F006C7A4B /* PrivTests */,
+				6C48DD922A7A4F80006C7A4B /* PrivUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6C48DD772A7A4F7C006C7A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48DD832A7A4F7F006C7A4B /* Preview Assets.xcassets in Resources */,
+				6C48DD802A7A4F7F006C7A4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD872A7A4F7F006C7A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD912A7A4F80006C7A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD703CF12385361700A8D946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,6 +872,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C48DD752A7A4F7C006C7A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48DD7E2A7A4F7D006C7A4B /* ContentView.swift in Sources */,
+				6C48DD7C2A7A4F7D006C7A4B /* PrivApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD852A7A4F7F006C7A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48DD8E2A7A4F80006C7A4B /* PrivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48DD8F2A7A4F80006C7A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48DD982A7A4F81006C7A4B /* PrivUITests.swift in Sources */,
+				6C48DD9A2A7A4F81006C7A4B /* PrivUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD703CEF2385361700A8D946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -704,6 +961,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6C48DD8B2A7A4F7F006C7A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C48DD782A7A4F7C006C7A4B /* Priv */;
+			targetProxy = 6C48DD8A2A7A4F7F006C7A4B /* PBXContainerItemProxy */;
+		};
+		6C48DD952A7A4F80006C7A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C48DD782A7A4F7C006C7A4B /* Priv */;
+			targetProxy = 6C48DD942A7A4F80006C7A4B /* PBXContainerItemProxy */;
+		};
 		AD439D7D2386D6BE00B2FAD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ADDEA83A1C905F9300B32C77 /* PrivilegesHelper */;
@@ -806,6 +1073,185 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6C48DD9C2A7A4F81006C7A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = Priv/Priv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Priv/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 SAP SE. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.Priv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C48DD9D2A7A4F81006C7A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = Priv/Priv.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Priv/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 SAP SE. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.Priv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C48DD9F2A7A4F81006C7A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.PrivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Priv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Priv";
+			};
+			name = Debug;
+		};
+		6C48DDA02A7A4F81006C7A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.PrivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Priv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Priv";
+			};
+			name = Release;
+		};
+		6C48DDA22A7A4F81006C7A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.PrivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Priv;
+			};
+			name = Debug;
+		};
+		6C48DDA32A7A4F81006C7A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.securrency.PrivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Priv;
+			};
+			name = Release;
+		};
 		AD703D002385361700A8D946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -814,15 +1260,16 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = PrivilegesXPC/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -841,15 +1288,16 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = PrivilegesXPC/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges.xpc;
@@ -972,10 +1420,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CODE_SIGN_ENTITLEMENTS = Privileges/Privileges.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -990,7 +1439,7 @@
 					"@loader_path/../Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1003,10 +1452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CODE_SIGN_ENTITLEMENTS = Privileges/Privileges.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1021,7 +1471,7 @@
 					"@loader_path/../Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1031,13 +1481,15 @@
 		ADDEA83F1C905F9300B32C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "PrivilegesHelper/PrivilegesHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = (
 					"-sectcreate",
@@ -1054,13 +1506,15 @@
 		ADDEA8401C905F9300B32C77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "PrivilegesHelper/PrivilegesHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = (
 					"-sectcreate",
@@ -1078,13 +1532,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PrivilegesCLI/PrivilegesCLI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges.cli;
@@ -1097,13 +1553,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = V46D6SD66R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PrivilegesCLI/PrivilegesCLI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges.cli;
@@ -1130,11 +1588,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1149,6 +1609,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = PrivilegesTile/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1160,6 +1621,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges.docktileplugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = docktileplugin;
 			};
@@ -1183,11 +1645,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1202,6 +1666,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = PrivilegesTile/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.5.3;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1213,6 +1678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.privileges.docktileplugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = docktileplugin;
 			};
@@ -1221,6 +1687,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6C48DD9B2A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "Priv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48DD9C2A7A4F81006C7A4B /* Debug */,
+				6C48DD9D2A7A4F81006C7A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48DD9E2A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "PrivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48DD9F2A7A4F81006C7A4B /* Debug */,
+				6C48DDA02A7A4F81006C7A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48DDA12A7A4F81006C7A4B /* Build configuration list for PBXNativeTarget "PrivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48DDA22A7A4F81006C7A4B /* Debug */,
+				6C48DDA32A7A4F81006C7A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD703D022385361700A8D946 /* Build configuration list for PBXNativeTarget "PrivilegesXPC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

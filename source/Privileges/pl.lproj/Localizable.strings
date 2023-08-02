@@ -22,7 +22,7 @@
 "removeButton" = "Oddaj uprawnienia";
 
 // button to cancel
-"cancelButton" = "Anuluj";
+"cancelButton" = "OK";
 
 // button with title "OK"
 "okButton" = "OK";

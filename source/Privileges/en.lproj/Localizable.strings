@@ -22,7 +22,7 @@
 "removeButton" = "Remove privileges";
 
 // button to cancel
-"cancelButton" = "Cancel";
+"cancelButton" = "OK";
 
 // button with title "OK"
 "okButton" = "OK";
@@ -46,7 +46,7 @@
 "setDialog1" = "You are currently a standard user.";
 
 // the message of the dialog box that asks the user if he/she really needs admin rights
-"setDialog2" = "Would you like to request administrator privileges?";
+"setDialog2" = "Please toggle privileges from the dock:";
 
 // the title of the dialog box that says that the user currently HAS admin rights
 "unsetDialog1" = "You are currently an administrator.";

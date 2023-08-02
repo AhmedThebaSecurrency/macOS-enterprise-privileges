@@ -22,7 +22,7 @@
 "removeButton" = "Administratorrechte entfernen";
 
 // button to cancel
-"cancelButton" = "Abbrechen";
+"cancelButton" = "OK";
 
 // button with title "ok"
 "okButton" = "OK";

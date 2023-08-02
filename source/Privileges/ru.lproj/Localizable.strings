@@ -22,7 +22,7 @@
 "removeButton" = "Удалить права администратора";
 
 // button to cancel
-"cancelButton" = "Отменить";
+"cancelButton" = "Сохранить";
 
 // button with title "OK"
 "okButton" = "Сохранить";
