@@ -68,6 +68,9 @@ Privileges documentation is available via the wiki or the links below:
 # Fork
 This fork removes the ability to change privileges from the main screen. This option doesnt allow automatic revert of privileges after 20 mins. With this build, the user can only toggle privileges from the dock menu.
 
+![PrivilegesBanner](readme_images/privmainscreen.png)
+![PrivilegesBanner](readme_images/privdockmenu.png)
+
 # License
 
 Copyright (c) 2018-2021 SAP SE or an SAP affiliate company and macOS-enterprise-privileges contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macOS-enterprise-privileges).
